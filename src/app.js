@@ -32,6 +32,10 @@ window.onload = function() {
     excuseElement.innerHTML = generateExcuse();
 
     // 5. Generate excuse
-    
+    if(button) {
+        button.addEventListener('click', () => {
+            excuseElement.innerHTML = generateExcuse();
+        });
+    }
 
 };

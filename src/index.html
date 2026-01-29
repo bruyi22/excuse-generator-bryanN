@@ -13,23 +13,24 @@
 </head>
 
 <body>
-  <!-- Write your HTML code here, you can delete everything withing the body tags -->
-  <div class="container-fluid text-center">
-    <h1 class="mt-5">Hello Rigo!</h1>
-    <div class="container">
-      <h1>OMG! You won't believe it...</h1>
+  <div class="container-fluid d-flex flex-column vh-100 text-center">
 
-      <p id="excuse">Loading your excuse...</p>
+    <h2 class="mt-5">OMG! You won't believe it...</h2>
 
-      <button id="generate-btn">Generate New Excuse</button>
+    <div class="my-auto">
+      <h1 id="excuse" class="display-4 px-3">Loading your excuse...</h1>
     </div>
-    <div class="fixed-bottom p-4">
+    <div>
+      <button id="generate-btn" class="btn btn-outline-dark mt-4">
+        <i class="fas fa-dice"></i> Generate New Excuse
+      </button>
+    </div>
+    <div class="p-4">
       Made with ❤️ by
-      <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <a href="https://www.4geeksacademy.com" target="_blank">4Geeks Academy</a>
     </div>
   </div>
 
-  <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
   <script type="module" src="/app.js"></script>
 </body>
 
